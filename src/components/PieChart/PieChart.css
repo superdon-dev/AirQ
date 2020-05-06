@@ -1,0 +1,23 @@
+.PieChart__Day p {
+  margin: 0;
+}
+.recharts-wrapper {
+  margin: auto;
+}
+.recharts-surface {
+  margin-left: 0.3vw;
+}
+.spacers {
+  margin-top: 100%;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .spacers {
+    margin-top: 120%;
+  }
+  .PieChart__Day {
+    margin-top: 2vh;
+  }
+  .recharts-surface {
+    width: 90px;
+  }
+}

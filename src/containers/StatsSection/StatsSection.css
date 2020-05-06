@@ -1,0 +1,101 @@
+.StatsSection {
+  height: auto;
+  padding: 0 5vw 0 10vw;
+  display: flex;
+  margin-bottom: 10vh;
+}
+.CardHalf {
+  flex: 1;
+  width: 30vw;
+  height: 25vh;
+  background-color: white;
+  margin-right: 5vw;
+  padding: 3vw;
+  text-align: center;
+  display: flex;
+}
+
+.CardHalf p {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.TextTitle {
+  text-align: left;
+  color: white;
+  padding: 0 10vw 0 10vw;
+  font-size: 1.5rem;
+  font-weight: 300;
+  z-index: -1;
+}
+.CardHalf__charts {
+  flex: 1;
+  margin: auto;
+}
+.CardFull {
+  flex: 1;
+  height: 50vh;
+  background-color: white;
+  margin-right: 5vw;
+  padding: 10vh 0;
+  text-align: center;
+}
+.MessageBox {
+  flex: 1;
+  padding: 5vw;
+  height: 3vh;
+  text-align: center;
+  color: #07061c;
+  background-color: white;
+  text-transform: uppercase;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .MessageBox {
+    font-size: 1rem;
+    height: 5vh;
+  }
+  .StatsSection {
+    width: 90vw;
+  }
+  .TextTitle {
+    text-align: center;
+    color: white;
+    padding: 0 5vw 0 5vw;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .StatsSection {
+    padding: 5vw;
+    display: inline-block;
+  }
+  .CardHalf {
+    min-height: 20vh;
+    height: auto;
+    width: 90vw;
+    margin: 0 0 5vh 0;
+    padding: 0 0 2vh 0;
+  }
+  .CardHalf__charts {
+    width: 100px;
+  }
+  .CardFull {
+    margin-top: -15vh;
+    height: 15vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1500px) {
+  .CardHalf {
+    height: 30vh;
+  }
+  .CardHalf h3 {
+    font-size: 2rem;
+  }
+  .CardHalf p {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,23 @@
+path {
+  fill-opacity: 1;
+  stroke: none;
+}
+text {
+  fill: #07061c;
+}
+.AreaChart__Text {
+  fill: #07061c;
+  font-weight: 700;
+}
+.AreaChart .recharts-surface {
+  margin-left: -2vw;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .AreaChart .recharts-surface {
+    width: 80vw;
+    height: 15vh;
+    flex: 1;
+    margin-left: -165vw;
+  }
+}
