@@ -1,7 +1,5 @@
 # AirQ 
 
-## Keep up to date with the levels of air pollution in your city
-
 ### What is it about?
 AirQ is a web application that shows the levels of air pollution and air quality index in the cities in Macedonia. It includes different types of representation of the date. It also includes historical preview of the air pollution in the last few days and the monthly air pollution in the current and the last year.
 
